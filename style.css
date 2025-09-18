@@ -1,14 +1,30 @@
 
+.cuerpo{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+}
+
+
 .formulario {
     background-color: #fff;
     padding: 30px 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
+    width: 200%;
+    max-width: 200%;
+    padding: 15px;
+
   }
 
+ 
+
 body {
+    background-image: url('https://img.freepik.com/foto-gratis/piedras-zen-equilibrio-playa-luz-amanecer-meditacion-relajacion-ai-generativo_123827-23546.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-color: #f0f2f5;
     display: flex;
     flex-direction: column;
@@ -20,20 +36,12 @@ body {
     width: 100%;
     text-align: center;
     margin: 10px;
-    background-color: cadetblue;
+    background-color: rgb(12, 126, 130);
     color: #fff;
   }
   
 
-  .formulario {
-    background-color: #fff;
-    padding: 30px 40px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 800px;
-    height: auto;
-    padding: 15px;
-  }
+  
 
   .titleFor{
     text-align: center;
@@ -49,11 +57,35 @@ body {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    font-size:large;
     
   }
 
-  input{
+  input {
     width: 95%;
-    height: auto
+    height: auto;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
   }
 
+  .btunico{
+    text-align: center;
+   
+    
+  }
+  .boton{
+    background-color: aquamarine;
+    width: 30%;
+  }
+
+  
+textarea {
+    width: 95%; 
+    height: 5rem; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    font-size:large; 
+    
+}
